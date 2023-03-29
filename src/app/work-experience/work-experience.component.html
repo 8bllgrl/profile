@@ -1,0 +1,11 @@
+<p>work-experience works!</p>
+
+<div class="project-list" *ngFor="let experience of workExperience">
+    <h2>{{ experience.company }}</h2>
+    <p>{{ experience.name }}</p>
+    <p>{{ experience.description }}</p>
+    <p>Start date: {{ experience.startDate }}</p>
+    <p>End date: {{ experience.endDate }}</p>
+</div>
+
+<hr>

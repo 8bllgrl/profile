@@ -1,0 +1,13 @@
+.page-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  height: 100vh;
+  max-width: 720px;
+  /* set maximum width */
+  margin: 0 auto;
+  /* add padding to prevent content from touching edges */
+  padding: 0 20px;
+  text-decoration: none;
+  color: darkblue;
+}

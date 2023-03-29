@@ -1,0 +1,9 @@
+<div *ngFor="let education of educationList">
+    <h2>{{ education.name }}</h2>
+    <p>{{ education.description }}</p>
+    <p>Start date: {{ education.startDate }}</p>
+    <p>End date: {{ education.endDate }}</p>
+    <a *ngIf="education.link" [href]="education.link">View details</a>
+  </div>
+  
+<hr>
