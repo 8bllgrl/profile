@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Education } from '../models/education.model';
-import { AccomplishmentListDataService } from '../models/project-list-data-service';
+import { Education } from '../../models/education.model';
+import { AccomplishmentListDataService } from '../../models/project-list-data-service';
 
 @Component({
   selector: 'app-education',
