@@ -12,6 +12,8 @@ export class MainInfoComponent {
   // picture
   profileImage: string = "https://avatars.githubusercontent.com/u/102974548?v=4";
   fullName: string = "Sage Belknap";
+  firstName: string = "Sage";
+  lastName: string = "Belknap"
   jobTitle: string = "Junior Full-stack Developer"
 
   descriptionContents: string = 

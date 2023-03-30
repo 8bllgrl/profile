@@ -6,9 +6,9 @@ import { AppComponent } from './app.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { MainInfoComponent } from './components/main-info/main-info.component';
 import { EducationComponent } from './components/education/education.component';
-import { SkillsComponent } from './components/skills/skills.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { WorkExperienceComponent } from './components/work-experience/work-experience.component';
+import { SkillsCardComponent } from './components/skills-card/skills-card.component';
 
 @NgModule({
   declarations: [
@@ -16,9 +16,9 @@ import { WorkExperienceComponent } from './components/work-experience/work-exper
     ProjectsComponent,
     MainInfoComponent,
     EducationComponent,
-    SkillsComponent,
     FooterComponent,
     WorkExperienceComponent,
+    SkillsCardComponent,
   ],
   imports: [
     BrowserModule,

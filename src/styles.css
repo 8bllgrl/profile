@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+/* Box sizing rules */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Remove default padding */
+  body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remove default list styling */
+  ul {
+    list-style: none;
+  }
+
+  h1 {
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
+  
+  
+  /* Set default font family and size */
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: rgb(32, 32, 32);
+  }
+  
+  
+  /* Set default link styles */
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  /* Set default button styles */
+  button, input[type="submit"], input[type="reset"] {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: inherit;
+  }
+  
+  /* Set default border box sizing for all elements */
+  * {
+    box-sizing: border-box;
+  }
+  

@@ -1,13 +1,25 @@
+
 .page-contents {
   display: flex;
   flex-direction: column;
   align-items: left;
-  height: 100vh;
-  max-width: 720px;
-  /* set maximum width */
-  margin: 0 auto;
-  /* add padding to prevent content from touching edges */
-  padding: 0 20px;
+  max-width: 990px;
+  margin: 70px auto 0;
+  padding: 20px;
   text-decoration: none;
-  color: darkblue;
+  color: white;
+  background-color: rgb(51, 51, 51);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.skills {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-card {
+  flex-basis: 30%;
+  margin: 10px;
 }

@@ -1,5 +1,24 @@
-<h2>Very early stages. Come back later.</h2>
+<div class="page">
+    <div class="page-contents">
 
-<div class="experimental-section">
-    <p>Experimental</p>
+        <app-main-info></app-main-info>
+
+        <div class="skills">
+            <app-skills-card [title]="'Card 1'" [skills]="['Skill 1', 'Skill 2', 'Skill 3']"></app-skills-card>
+            <app-skills-card [title]="'Card 2'" [skills]="['Skill 4', 'Skill 5', 'Skill 6']"></app-skills-card>
+            <app-skills-card [title]="'Card 3'" [skills]="['Skill 7', 'Skill 8', 'Skill 9']"></app-skills-card>
+        </div>
+
+        <!-- <div class="skills">
+            <app-skills-card [card]="skills1"></app-skills-card>
+            <app-skills-card [card]="skills2"></app-skills-card>
+            <app-skills-card [card]="skills3"></app-skills-card>
+          </div> -->
+      
+        
+        <app-projects></app-projects>
+        <app-education></app-education>
+
+    </div>
+
 </div>
