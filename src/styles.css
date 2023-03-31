@@ -11,6 +11,7 @@
   
   /* Remove default list styling */
   ul {
+    font-size: 21px;
     list-style: none;
   }
 
@@ -20,7 +21,11 @@
     font-weight: bold;
   }
   
-  
+  p {
+    font-size: 21px;
+
+  }
+
   /* Set default font family and size */
   body {
     font-family: 'Roboto', sans-serif;

@@ -9,6 +9,8 @@ import { EducationComponent } from './components/education/education.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { WorkExperienceComponent } from './components/work-experience/work-experience.component';
 import { SkillsCardComponent } from './components/skills-card/skills-card.component';
+import { ProjCardComponent } from './components/proj-card/proj-card.component';
+import { LoadingScreenComponent } from './loading-screen/loading-screen.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { SkillsCardComponent } from './components/skills-card/skills-card.compon
     FooterComponent,
     WorkExperienceComponent,
     SkillsCardComponent,
+    ProjCardComponent,
+    LoadingScreenComponent,
   ],
   imports: [
     BrowserModule,

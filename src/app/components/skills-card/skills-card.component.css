@@ -7,10 +7,12 @@
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  width: 230px;
+  width: 200px;
   height: 250px;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
+  margin-left: ;
+  font-size: 21px;
 }
 
 .card-title {
@@ -52,7 +54,7 @@
 @media screen and (min-width: 768px) {
   .card {
     margin: 5px;
-    width: 300px;
+    width: 290px;
     height: 300px;
   }
 }

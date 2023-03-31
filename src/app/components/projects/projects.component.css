@@ -5,3 +5,13 @@ a {
 .project-list a {
     text-decoration: none;
 }
+
+.project-list{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
