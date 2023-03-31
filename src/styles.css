@@ -33,6 +33,13 @@
     line-height: 1.5;
     background-color: rgb(32, 32, 32);
   }
+
+  .divider {
+    padding: 20px 0;
+    color: transparent;
+    text-shadow: none;
+  }
+  
   
   
   /* Set default link styles */

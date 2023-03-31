@@ -1,23 +1,36 @@
 <app-loading-screen></app-loading-screen>
 <div class="page">
+
+  <div class="circle"></div>
   <div class="page-contents">
-
     <app-main-info></app-main-info>
-
     <div class="divider">Div1</div>
-    <div class="skills">
+    <!-- <div class="skills">
       <app-skills-card [title]="skillcard1Contents.title" [skills]="skillcard1Contents.skills"></app-skills-card>
       <app-skills-card [title]="skillcard2Contents.title" [skills]="skillcard2Contents.skills"></app-skills-card>
       <app-skills-card [title]="skillcard3Contents.title" [skills]="skillcard3Contents.skills"></app-skills-card>
+    </div> -->
+    <div class="skills">
+      <app-skills-card [skillcard]="skillcard1Contents"></app-skills-card>
+      <app-skills-card [skillcard]="skillcard2Contents"></app-skills-card>
+      <app-skills-card [skillcard]="skillcard3Contents"></app-skills-card>
     </div>
+
 
     <div class="divider">Div1</div>
 
     <div class="projs">
-      <app-proj-card></app-proj-card>
-      <!-- <app-proj-card></app-proj-card>
-      <app-proj-card></app-proj-card>
-      <app-proj-card></app-proj-card> -->
+      <div class="projdivider">PDiv</div>
+      <app-proj-card [project]="project1"></app-proj-card>
+      <div class="projdivider">PDiv</div>
+      <app-proj-card [project]="project1"></app-proj-card>
+      <div class="projdivider">PDiv</div>
+      <app-proj-card [project]="project1"></app-proj-card>
+      <div class="projdivider">PDiv</div>
+      <app-proj-card [project]="project1"></app-proj-card>
+      <div class="projdivider">PDiv</div>
+
+
     </div>
 
     <!-- <app-projects></app-projects> -->

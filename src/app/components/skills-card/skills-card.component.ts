@@ -10,6 +10,5 @@ import { SkillsContents } from 'src/app/models/skillscontents.model';
   styleUrls: ['./skills-card.component.css']
 })
 export class SkillsCardComponent {
-  @Input() title: string = "";
-  @Input() skills: string[] = [];
+  @Input() skillcard: {title: string, skills: string[]} = {title: "", skills: []};
 }

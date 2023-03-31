@@ -1,19 +1,12 @@
 <div class="project-card">
   <img src="https://via.placeholder.com/400x250" alt="Project Image">
 
-  <h2>Project Title</h2>
+  <h2>{{ project.name }}</h2>
   <div class="description-box">
-    <p>Project description goes here. This could be a brief summary of what the project is, what it does, and why it was
-      created.Project description goes here. This could be a brief summary of what the project is, what it does, and why it was
-      created.</p>
+    <p>{{ project.description }}</p>
   </div>
   <ul>
-    <li>Tool 1</li>
-    <li>Tool 2</li>
-    <li>Tool 3</li>
-    <li>Tool 1</li>
-    <li>Tool 2</li>
-    <li>Tool 3</li>
+    <li *ngFor="let skill of project.tech">{{ skill }}</li>
   </ul>
   <a href="#">View Project</a>
 </div>
