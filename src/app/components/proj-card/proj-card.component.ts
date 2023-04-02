@@ -8,11 +8,10 @@ import { Project } from '../../models/project.model';
   styleUrls: ['./proj-card.component.css']
 })
 export class ProjCardComponent {
-  // @Input() imageUrl: string ="";
-  // @Input() title: string ="";
-  // @Input() description: string ="";
+
   @Input() project: Project = new Project(
     999,
+    '',
     '',
     '',
     '',

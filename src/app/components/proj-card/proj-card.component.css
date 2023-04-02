@@ -1,4 +1,3 @@
-/* Default styles for desktop */
 .project-card {
   display: flex;
   align-items: center;
@@ -8,9 +7,9 @@
 .project-card img {
   width: 380px;
   height: auto;
-  object-fit: cover;
+  object-fit: auto;
   z-index: 1;
-  border: 3px solid rgb(0, 0, 0);
+  border: 3px solid black;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
 }
@@ -21,40 +20,41 @@
   top: 0;
   left: 0;
   width: 380px;
-  height: auto;
   height: 100%;
   background-color: #6058f6d8;
   mix-blend-mode: multiply;
-  /* Change the color and opacity as needed */
   z-index: 2;
-  /* Place the pseudo-element above the image */
   transition: all 0.3s ease-in-out;
-
 }
-
 
 .project-card:hover::before {
   opacity: 0;
-  transition: all 0.3s ease-in-out;
 }
-
 
 .project-card .description-box {
   position: absolute;
   top: 40px;
   left: 230px;
-  background-color: #fff;
+  background-color: white;
   padding: 20px;
   z-index: 2;
   width: 60%;
   border-radius: 12px;
 }
 
-.project-card p {
-  color: #000;
+.project-card .description-txt {
+  color: black;
   font-size: 1rem;
   line-height: 1.5;
   margin: 0;
+}
+
+.dates {
+  position: absolute;
+  bottom: 5px;
+  transform: translateY(70px);
+  z-index: 4;
+  color: white;
 }
 
 .project-card h2 {
@@ -62,26 +62,25 @@
   margin: 0 0 10px;
   position: absolute;
   bottom: calc(100% - 50px);
-  /* Set the right property to the same value as the left property of the description box */
   right: calc(100% - 700px);
-  color: #ffffff;
-  /* padding: 0px; */
+  color: white;
   padding-right: 2%;
   z-index: 3;
-  /* border: 2px solid #000;
-  background-color: #fff; */
   width: 40%;
-  /* height: 22; */
   display: inline-block;
+  font-style: italic;
   text-align: right;
+  transition: all 0.3s ease-in-out;
 }
 
+.project-card h2:hover {
+  color: rgb(154, 154, 255);
+  text-decoration: underline;
+}
 
 ul {
   position: absolute;
   font-size: 20px;
-  /* -webkit-text-stroke-color: #000; */
-  /* -webkit-text-stroke: #000; */
   bottom: 5px;
   right: -18%;
   transform: translateX(-50%);
@@ -91,15 +90,13 @@ ul {
   list-style: none;
   padding: 0;
   z-index: 4;
-  color: #fff;
+  color: white;
   text-shadow:
     -1px -1px 0 #363636,
     1px -1px 0 #363636,
     -1px 1px 0 #363636,
     1px 1px 0 #363636;
-
   -webkit-font-smoothing: antialiased;
-
 }
 
 li {
@@ -107,73 +104,53 @@ li {
   white-space: nowrap;
 }
 
-
-
-
-/* Media query for mobile */
 @media screen and (max-width: 768px) {
   .project-card {
-    flex-direction: column;
+  flex-direction: column;
   }
-
+  
   .project-card img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
   }
-
+  
   .project-card .description-box {
-    width: 100%;
-    margin-top: 20px;
+  position: static;
+  margin-top: 0;
+  width: 100%;
   }
-
+  
   .project-card h2 {
-    position: relative;
-    margin-bottom: 20px;
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 20px;
   }
-}
-
-@media screen and (max-width: 768px) {
-  .project-card .description-box {
-    position: static;
-    margin-top: 0;
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .project-card h2 {
-    position: absolute;
-    top: -50px;
-    left: 0;
-    width: 100%;
-    height: auto;
-    text-align: center;
-  }
-}
-
-/* Styles for mobile devices */
-@media screen and (max-width: 768px) {
+  
   ul {
-    right: 0;
-    left: 0;
-    transform: none;
-    justify-content: center;
-    position: relative;
-    /* Change position to relative */
-    bottom: auto;
-    /* Remove bottom property */
-    display: flex;
-    flex-wrap: wrap;
-    /* Add flex-wrap property */
-    justify-content: center;
-    /* Center the list */
-    align-items: center;
-    padding: 0;
+  right: 0;
+  left: 0;
+  transform: none;
+  justify-content: center;
+  position: relative;
+  bottom: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
   }
-
+  
   li {
-    margin: 0 10px;
-    /* Use margin instead of padding */
-    white-space: nowrap;
+  margin: 0 10px;
+  white-space: nowrap;
   }
-}
+  
+  .project-card::before {
+  width: 100%;
+  height: 50%;
+  }
+  }

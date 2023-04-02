@@ -1,12 +1,24 @@
 <div class="project-card">
-  <img src="https://via.placeholder.com/400x250" alt="Project Image">
+  <img src="{{ project.img }}" alt="Project Image">
 
-  <h2>{{ project.name }}</h2>
-  <div class="description-box">
-    <p>{{ project.description }}</p>
+  <div class="hidden" animateOnScrollOther>
+    <h2><a href="{{ project.link }}">{{ project.name }}</a></h2>
+    <div class="description-box">
+      <p class="description-txt">{{ project.description }}</p>
+
+    </div>
   </div>
   <ul>
     <li *ngFor="let skill of project.tech">{{ skill }}</li>
   </ul>
-  <a href="#">View Project</a>
+
+  <div class="dates">
+    <p>Month : Year </p>
+    <!-- <p>Start date:</p> -->
+    <!-- <p>End date:</p> -->
+  </div>
+
+
+
+  <!-- <a href="#">View Project</a> -->
 </div>

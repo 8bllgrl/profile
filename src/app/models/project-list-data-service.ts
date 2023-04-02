@@ -25,11 +25,11 @@ export class AccomplishmentListDataService {
 
   private education: Education[] = [
     {
-      id:1,
-      name: "Kenzie",
-      description: "dasdakjsdh",
-      startDate: "",
-      endDate: "",
+      id: 1,
+      name: "Kenzie Academy Graduate",
+      description: "I completed the full-stack web development program at Kenzie Academy, where I learned a variety of skills including HTML, CSS, JavaScript, React, Node.js, and SQL. Throughout the program, I worked on a number of real-world projects to gain practical experience.",
+      startDate: "January 2021",
+      endDate: "September 2021",
     }
   ];
   
@@ -39,6 +39,7 @@ export class AccomplishmentListDataService {
     {
       id: 1,
       name: 'Backend API Development',
+      img: "https://via.placeholder.com/400x250",
       description: 'Developed a RESTful API to power an e-commerce website using Node.js and Express.js. Implemented user authentication and authorization using JWT and Passport.js. Utilized MongoDB for database management and Mongoose as an Object Data Modeling (ODM) library. ',
       tech: ['Angular', 'Node.js', 'MongoDB', 'Intellij'],
       link: 'https://example.com/project1',
@@ -46,20 +47,24 @@ export class AccomplishmentListDataService {
       endDate: '2022-02-01'
     },
     {
-      id: 2,
-      name: 'Project 2',
-      description: 'This is project 2',
-      tech: ['React', 'Express', 'MySQL'],
-      startDate: '2022-03-01',
-      endDate: '2022-04-01'
+      id: 1,
+      name: 'Backend API Development',
+      img: "https://via.placeholder.com/400x250",
+      description: 'Developed a RESTful API to power an e-commerce website using Node.js and Express.js. Implemented user authentication and authorization using JWT and Passport.js. Utilized MongoDB for database management and Mongoose as an Object Data Modeling (ODM) library. ',
+      tech: ['Angular', 'Node.js', 'MongoDB', 'Intellij'],
+      link: 'https://example.com/project1',
+      startDate: '2022-01-01',
+      endDate: '2022-02-01'
     },
     {
-      id: 3,
-      name: 'Project 2',
-      description: 'iquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      tech: ['React', 'Express', 'MySQL'],
-      startDate: '2022-03-01',
-      endDate: '2022-04-01'
+      id: 1,
+      name: 'Backend API Development',
+      img: "https://via.placeholder.com/400x250",
+      description: 'Developed a RESTful API to power an e-commerce website using Node.js and Express.js. Implemented user authentication and authorization using JWT and Passport.js. Utilized MongoDB for database management and Mongoose as an Object Data Modeling (ODM) library. ',
+      tech: ['Angular', 'Node.js', 'MongoDB', 'Intellij'],
+      link: 'https://example.com/project1',
+      startDate: '2022-01-01',
+      endDate: '2022-02-01'
     }
   ];
 

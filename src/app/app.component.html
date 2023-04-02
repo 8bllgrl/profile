@@ -1,7 +1,8 @@
 <app-loading-screen></app-loading-screen>
-<div class="page">
 
-  <div class="circle"></div>
+
+<div class="page">
+  <!-- <div class="circle"></div> -->
   <div class="page-contents">
     <app-main-info></app-main-info>
     <div class="divider">Div1</div>
@@ -10,14 +11,26 @@
       <app-skills-card [title]="skillcard2Contents.title" [skills]="skillcard2Contents.skills"></app-skills-card>
       <app-skills-card [title]="skillcard3Contents.title" [skills]="skillcard3Contents.skills"></app-skills-card>
     </div> -->
-    <div class="skills">
+
+
+    <div class="skills hidden" animateOnScroll>
       <app-skills-card [skillcard]="skillcard1Contents"></app-skills-card>
       <app-skills-card [skillcard]="skillcard2Contents"></app-skills-card>
       <app-skills-card [skillcard]="skillcard3Contents"></app-skills-card>
     </div>
 
 
-    <div class="divider">Div1</div>
+    <!-- Make this a lot less taller. -->
+<!-- 
+    <div class="education">
+      <div class="divider">Div1</div>
+      <div class="divider">Div1</div>
+
+      <app-education></app-education>
+
+      <div class="divider">Div1</div>
+      <div class="divider">Div1</div>
+    </div> -->
 
     <div class="projs">
       <div class="projdivider">PDiv</div>
@@ -34,8 +47,24 @@
     </div>
 
     <!-- <app-projects></app-projects> -->
-    <app-education></app-education>
+
 
   </div>
-
+  <div class="footer">
+    <h2 class="footer-header">Footer Title</h2>
+    <div class="grid-container">
+      <div class="grid-item">
+        <h2>Chat</h2>
+        <a href="#"> <p class="grey">Footer Item</p></a>
+        <a href="#"> <p class="grey">Footer Item</p></a>
+        <a href="#"> <p class="grey">Footer Item</p></a>
+      </div>
+      <div class="grid-item">
+        <h2>Links</h2>
+        <a href="#"> <p class="grey">Footer Item</p></a>
+        <a href="#"> <p class="grey">Footer Item</p></a>
+        <a href="#"> <p class="grey">Footer Item</p></a>
+      </div>
+    </div>
+  </div>
 </div>

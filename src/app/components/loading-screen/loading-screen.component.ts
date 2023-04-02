@@ -11,6 +11,6 @@ export class LoadingScreenComponent {
   ngOnInit() {
     setTimeout(() => {
       this.loading = false;
-    }, 200);
+    }, 300);
   }
 }

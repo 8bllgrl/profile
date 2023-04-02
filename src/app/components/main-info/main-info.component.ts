@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { AnimateOnScrollDirective } from '../../experimental/animate-on-scroll.directive';
+
 
 @Component({
   selector: 'app-main-info',

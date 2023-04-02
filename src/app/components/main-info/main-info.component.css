@@ -9,6 +9,10 @@
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
+
+  /* opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s; */
 }
 
 
@@ -22,15 +26,15 @@
 }
 
 .button {
-  border: 2px solid black;
+  border: 2px solid #6058f6d8;
   padding: 10px 20px;
   margin: 10%;
   display: inline-block;
   width: auto;
   max-width: 170px;
   text-align: center;
+  border-radius: 10px;
 }
-
 
 
 .main-info h1 {
@@ -53,3 +57,21 @@
   line-height: 1.5;
   margin: 0;
 }
+
+.hidden {
+  opacity: 0;
+  transition: all 2s;
+}
+
+.show {
+  translate: translateY(-60px);
+  opacity: 1;
+}
+
+@media(prefers-reduced-motion){
+  .hidden{
+    transition: none;
+  }
+}
+
+

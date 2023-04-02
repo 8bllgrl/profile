@@ -12,17 +12,18 @@ export class AppComponent implements OnInit {
 
   // Skill details
   skillcard1Contents = new SkillsContents(
-    'Card 1',
-    ['Skill 1', 'Skill 2', 'Skill 3']
+    'Front-end',
+    ['HTML', 'CSS','Typescript','Angular']
   );
   skillcard2Contents = new SkillsContents(
-    'Card 2',
-    ['Skill 4', 'Skill 5', 'Skill 6']
+    'Tools & Other',
+    ['Git', 'GitHub', 'IntelliJ', 'Gradle', 'Game Modding']
   );
   skillcard3Contents = new SkillsContents(
-    'Card 3',
-    ['Skill 7', 'Skill 8', 'Skill 9']
+    'Back-end',
+    ['Java', 'Python', 'SQL', 'Spring Boot', 'RESTful API']
   );
+  
 
   accomplishments = new AccomplishmentListDataService;
 

@@ -9,6 +9,9 @@ import { AccomplishmentListDataService } from '../../models/project-list-data-se
 })
 export class EducationComponent implements OnInit{
 
+  imageUrl: string = '../../../assets/media/img/cert.png';
+
+
   educationList: Education[] = [];
 
   constructor(private projectListDataService: AccomplishmentListDataService) { }

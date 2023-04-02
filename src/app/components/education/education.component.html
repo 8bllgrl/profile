@@ -1,9 +1,20 @@
-<div *ngFor="let education of educationList">
-    <h2>{{ education.name }}</h2>
-    <p>{{ education.description }}</p>
+<!-- <hr> -->
+
+<div class="container hidden" *ngFor="let education of educationList" scrollAnimation>
+  <!-- <img class ="logo" src="../../../assets/media/img/Kenzie_Academy_Logo.jpg" alt="Kenize Image TODO"> -->
+  <h2>{{ education.name }}</h2>
+  <div class="hidden" scrollAnimationBlur>
+    <img src="../../../assets/media/img/cert.png" alt="Kenize Image TODO">
+
+
+  </div>
+  <p>{{ education.description }}</p>
+  <div class="dates">
     <p>Start date: {{ education.startDate }}</p>
     <p>End date: {{ education.endDate }}</p>
-    <a *ngIf="education.link" [href]="education.link">View details</a>
   </div>
-  
-<hr>
+
+  <a *ngIf="education.link" [href]="education.link">View details</a>
+</div>
+
+<!-- <hr> -->
