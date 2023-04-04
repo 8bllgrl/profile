@@ -5,14 +5,23 @@
   <!-- <div class="circle"></div> -->
   <div class="page-contents">
     <app-main-info></app-main-info>
-    <div class="divider">Div1</div>
     <!-- <div class="skills">
       <app-skills-card [title]="skillcard1Contents.title" [skills]="skillcard1Contents.skills"></app-skills-card>
       <app-skills-card [title]="skillcard2Contents.title" [skills]="skillcard2Contents.skills"></app-skills-card>
       <app-skills-card [title]="skillcard3Contents.title" [skills]="skillcard3Contents.skills"></app-skills-card>
     </div> -->
 
+    <app-logo-div></app-logo-div>
+    <div class="divider">Div1</div>
 
+    <div class="divider">Div1</div>
+
+    <app-me-section></app-me-section>
+    <div class="divider">Div1</div>
+    <div class="divider">Div1</div>
+
+
+    <div class="divider">Div1</div>
     <div class="skills hidden" animateOnScroll>
       <app-skills-card [skillcard]="skillcard1Contents"></app-skills-card>
       <app-skills-card [skillcard]="skillcard2Contents"></app-skills-card>
@@ -20,8 +29,7 @@
     </div>
 
 
-    <!-- Make this a lot less taller. -->
-<!-- 
+
     <div class="education">
       <div class="divider">Div1</div>
       <div class="divider">Div1</div>
@@ -30,17 +38,17 @@
 
       <div class="divider">Div1</div>
       <div class="divider">Div1</div>
-    </div> -->
+    </div>
 
     <div class="projs">
       <div class="projdivider">PDiv</div>
       <app-proj-card [project]="project1"></app-proj-card>
       <div class="projdivider">PDiv</div>
-      <app-proj-card [project]="project1"></app-proj-card>
+      <app-proj-card [project]="project2"></app-proj-card>
       <div class="projdivider">PDiv</div>
-      <app-proj-card [project]="project1"></app-proj-card>
+      <app-proj-card [project]="project3"></app-proj-card>
       <div class="projdivider">PDiv</div>
-      <app-proj-card [project]="project1"></app-proj-card>
+      <app-proj-card [project]="project4"></app-proj-card>
       <div class="projdivider">PDiv</div>
 
 
@@ -55,15 +63,27 @@
     <div class="grid-container">
       <div class="grid-item">
         <h2>Chat</h2>
-        <a href="#"> <p class="grey">Footer Item</p></a>
-        <a href="#"> <p class="grey">Footer Item</p></a>
-        <a href="#"> <p class="grey">Footer Item</p></a>
+        <a href="#">
+          <p class="grey">Footer Item</p>
+        </a>
+        <a href="#">
+          <p class="grey">Footer Item</p>
+        </a>
+        <a href="#">
+          <p class="grey">Footer Item</p>
+        </a>
       </div>
       <div class="grid-item">
         <h2>Links</h2>
-        <a href="#"> <p class="grey">Footer Item</p></a>
-        <a href="#"> <p class="grey">Footer Item</p></a>
-        <a href="#"> <p class="grey">Footer Item</p></a>
+        <a href="#">
+          <p class="grey">Footer Item</p>
+        </a>
+        <a href="#">
+          <p class="grey">Footer Item</p>
+        </a>
+        <a href="#">
+          <p class="grey">Footer Item</p>
+        </a>
       </div>
     </div>
   </div>

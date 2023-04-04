@@ -29,6 +29,9 @@ export class AppComponent implements OnInit {
 
   // Project Details
   project1 = this.accomplishments.getProjects()[0];
+  project2 = this.accomplishments.getProjects()[1];
+  project3 = this.accomplishments.getProjects()[2];
+  project4 = this.accomplishments.getProjects()[3];
 
   ngOnInit() {
     // this.addScrollListener();

@@ -1,9 +1,10 @@
 .container {
   position: relative;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: row-reverse;  */
   background-color: #c7c7c7;
   padding: 50px;
+  padding-top: 58px;
   margin: 0 auto;
   /* center horizontally */
   max-width: 90%;
@@ -17,6 +18,51 @@
   color: rgb(16, 16, 39);
 }
 
+
+
+.top-row {
+  z-index: 10;
+  border-radius: 5px;
+  position: absolute;
+  top: -35px;
+  left: -35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  line-height: 30px;
+  background-color: aliceblue;
+  margin: 0;
+  padding: 10px 20px;
+  /* add more padding on the left and right sides */
+  box-shadow: 10px 13px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 768px) {
+  .top-row {
+    top: -55px;
+    left: 0;
+    box-shadow: 0px 13px 5px 0px rgba(0, 0, 0, 0.25);
+
+  }
+}
+
+.bottom-row {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  /* add some space between top-row and other elements */
+}
+
+@media (max-width: 768px) {
+  .bottom-row {
+    flex-direction: column;
+  }
+}
+
 .container h2,
 .container img,
 .container p,
@@ -26,20 +72,39 @@
 }
 
 .container img {
+  /* position: a; */
   border-radius: 25px;
-  max-width: 700px;
+  /* set the size of the container */
+  width: 400px;
+  height: 200px;
+  /* make sure the image fills the container */
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .container img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .container h2 {
   font-size: 30px;
 }
 
-.container .dates {
-  border-radius: 25px;
-  padding: 5px;
+.dates {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  margin-top: 0px;
   line-height: 15px;
   background-color: aliceblue;
+  right: -15px;
+  bottom: -30px;
+  border-radius: 5px;
+  box-shadow: -13px -10px 5px 0px rgba(0, 0, 0, 0.25);
 }
+
 
 .container .logo {
   max-width: 500px;

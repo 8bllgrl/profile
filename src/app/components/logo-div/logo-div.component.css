@@ -1,0 +1,29 @@
+hr {
+    margin: 30px 0;
+    /* add more margin between the hr and other elements */
+    border: 1px solid #00000063;
+    /* border-bottom: 2px solid #27272780; */
+}
+
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+    /* add spacing between the images */
+    margin: 0 50px;
+    margin-top: 15px;
+    /* make the images smaller */
+    width: auto;
+    height: 55px;
+}
+
+@media (max-width: 768px) {
+    img {
+        /* margin-right: 0; */
+        margin-bottom: 20px;
+    }
+}
+
+.parent-container {
+    text-align: center;
+}

@@ -2,7 +2,7 @@
   <img src="{{ project.img }}" alt="Project Image">
 
   <div class="hidden" animateOnScrollOther>
-    <h2><a href="{{ project.link }}">{{ project.name }}</a></h2>
+    <h2><a href="{{ project.link }}">{{ project.name }} ➔ </a></h2>
     <div class="description-box">
       <p class="description-txt">{{ project.description }}</p>
 
@@ -13,7 +13,7 @@
   </ul>
 
   <div class="dates">
-    <p>Month : Year </p>
+    <p>{{ project.startDate }} : {{ project.endDate }} </p>
     <!-- <p>Start date:</p> -->
     <!-- <p>End date:</p> -->
   </div>

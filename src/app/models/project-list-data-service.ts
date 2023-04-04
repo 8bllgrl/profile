@@ -43,11 +43,11 @@ export class AccomplishmentListDataService {
       description: 'Developed a RESTful API to power an e-commerce website using Node.js and Express.js. Implemented user authentication and authorization using JWT and Passport.js. Utilized MongoDB for database management and Mongoose as an Object Data Modeling (ODM) library. ',
       tech: ['Angular', 'Node.js', 'MongoDB', 'Intellij'],
       link: 'https://example.com/project1',
-      startDate: '2022-01-01',
-      endDate: '2022-02-01'
+      startDate: 'Month',
+      endDate: 'Year'
     },
     {
-      id: 1,
+      id: 2,
       name: 'Backend API Development',
       img: "https://via.placeholder.com/400x250",
       description: 'Developed a RESTful API to power an e-commerce website using Node.js and Express.js. Implemented user authentication and authorization using JWT and Passport.js. Utilized MongoDB for database management and Mongoose as an Object Data Modeling (ODM) library. ',
@@ -57,7 +57,27 @@ export class AccomplishmentListDataService {
       endDate: '2022-02-01'
     },
     {
-      id: 1,
+      id: 3,
+      name: 'Backend API Development',
+      img: "https://via.placeholder.com/400x250",
+      description: 'Developed a RESTful API to power an e-commerce website using Node.js and Express.js. Implemented user authentication and authorization using JWT and Passport.js. Utilized MongoDB for database management and Mongoose as an Object Data Modeling (ODM) library. ',
+      tech: ['Angular', 'Node.js', 'MongoDB', 'Intellij'],
+      link: 'https://example.com/project1',
+      startDate: '2022-01-01',
+      endDate: '2022-02-01'
+    },
+    {
+      id: 4,
+      name: 'Backend API Development',
+      img: "https://via.placeholder.com/400x250",
+      description: 'Developed a RESTful API to power an e-commerce website using Node.js and Express.js. Implemented user authentication and authorization using JWT and Passport.js. Utilized MongoDB for database management and Mongoose as an Object Data Modeling (ODM) library. ',
+      tech: ['Angular', 'Node.js', 'MongoDB', 'Intellij'],
+      link: 'https://example.com/project1',
+      startDate: '2022-01-01',
+      endDate: '2022-02-01'
+    },
+    {
+      id: 5,
       name: 'Backend API Development',
       img: "https://via.placeholder.com/400x250",
       description: 'Developed a RESTful API to power an e-commerce website using Node.js and Express.js. Implemented user authentication and authorization using JWT and Passport.js. Utilized MongoDB for database management and Mongoose as an Object Data Modeling (ODM) library. ',

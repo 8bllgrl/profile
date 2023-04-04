@@ -15,6 +15,8 @@ import { ScrollAnimationDirective } from './experimental/scroll-animation.direct
 import { AnimateOnScrollOtherDirective } from './experimental/animate-on-scoll-other.directive';
 import { AnimateOnScrollOtherLFDirective } from './experimental/animate-on-scoll-otherLF.directive';
 import { ScrollAnimationDirectiveBlur } from './experimental/scroll-animationblur.directive';
+import { LogoDivComponent } from './components/logo-div/logo-div.component';
+import { MeSectionComponent } from './components/me-section/me-section.component';
 
 
 @NgModule({
@@ -32,6 +34,8 @@ import { ScrollAnimationDirectiveBlur } from './experimental/scroll-animationblu
     AnimateOnScrollOtherDirective,
     AnimateOnScrollOtherLFDirective,
     ScrollAnimationDirectiveBlur,
+    LogoDivComponent,
+    MeSectionComponent,
   ],
   imports: [
     BrowserModule,

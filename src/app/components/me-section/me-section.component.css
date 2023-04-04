@@ -1,0 +1,126 @@
+.row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: left;
+  padding-left: 10vw;
+  /* Add more styles here to make it look cool */
+}
+
+@media (max-width: 768px) {
+  h2 {
+    text-align: center;
+  }
+}
+
+.row .image-container {
+  background-color: transparent;
+  width: 70vw;
+  height: auto;
+  flex: 0.8;
+  /* make image column twice as wide */
+  overflow: hidden;
+  /* hide overflow content */
+  position: relative;
+  /* set position to relative for absolute positioning of .rectangle */
+  border-radius: 15px;
+}
+
+.row .image-container img {
+  max-width: 100%;
+  height: 100%; /* set the height to 100% */
+  filter: grayscale(100%);
+  /* apply grayscale filter by default */
+  transition: opacity 0.5s ease-in-out;
+  /* add a smooth transition */
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.row .image-container::before {
+  overflow: hidden;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 98%;
+  background-color: #6058f6d8;
+  mix-blend-mode: multiply;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 5;
+}
+
+.row .image-container:hover::before {
+  mix-blend-mode: multiply;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+
+
+@media (max-width: 768px) {
+  .row .image-container {
+    position: relative;
+  }
+
+  .row .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .row .image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    /* background-color: aqua; */
+    mix-blend-mode: multiply;
+    /* opacity: 0.5; */
+    transition: opacity 0.5s ease-in-out;
+    z-index: 5;
+  }
+
+  .row .image-container:hover::before {
+    opacity: 0;
+  }
+}
+
+.row .image-container:hover img {
+  filter: grayscale(0%);
+  /* remove grayscale filter on hover */
+}
+
+.row .me-description {
+  /* background-color: brown; */
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 0;
+  flex: 1.5;
+  /* make description column half as wide */
+  width: 70vw;
+  height: auto;
+  align-items: center;
+  text-align: left;
+}
+
+@media(max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .row .image-container {
+    flex: 1;
+  }
+
+  .row .me-description {
+    flex: 1;
+  }
+}

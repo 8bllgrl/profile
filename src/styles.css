@@ -94,3 +94,7 @@ input[type="reset"] {
 * {
   box-sizing: border-box;
 }
+
+::selection {
+  background-color: #6058f6d8;
+}

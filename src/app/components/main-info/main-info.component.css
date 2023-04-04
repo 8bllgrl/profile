@@ -68,10 +68,42 @@
   opacity: 1;
 }
 
+
+
 @media(prefers-reduced-motion){
   .hidden{
     transition: none;
   }
 }
 
-
+@media (max-width: 768px) {
+  .main-info {
+    max-width: 100%;
+    padding: 10px;
+    /* text-align: center; */
+  }
+  
+  .main-info img {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+  
+  .main-info h1 {
+    font-size: 4.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .main-info h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .main-info p {
+    font-size: 1.2rem;
+  }
+  
+  .button {
+    margin: 5%;
+    padding: 8px 16px;
+  }
+}
