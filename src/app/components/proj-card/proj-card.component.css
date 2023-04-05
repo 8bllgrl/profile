@@ -44,10 +44,12 @@
 
 .project-card .description-txt {
   color: black;
+  /* color: aquamarine; */
   font-size: 1rem;
   line-height: 1.5;
   margin: 0;
 }
+
 
 .dates {
   position: absolute;

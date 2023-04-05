@@ -40,52 +40,41 @@ export class AccomplishmentListDataService {
       id: 1,
       name: 'Trivia Game',
       img: "https://via.placeholder.com/400x250",
-      description: 
-      "<a href=\"https://www.tumblr.com/\">Tumblr</a>,This application is a trivia game that uses a REST API to gather data for the questions and answers, determines if the user answered correctly and provides feedback based on the user's response. Enjoy!",
-      tech: ['Angular', 'Node.js', 'MongoDB', 'Intellij'],
-      link: 'https://example.com/project1',
-      startDate: 'Month',
-      endDate: 'Year'
+      description: "This application is a trivia game that uses a <a href='https://jservice.kenzie.academy/'target=\"_blank\"  style='color:blue'><u>REST API</u></a> to gather data for the questions and answers, determines if the user answered correctly and provides feedback based on the user's response. Enjoy!",
+      tech: ["Swing GUI",'Jservice API', 'Java 16', "   "],
+      link: 'https://github.com/8bllgrl/KenzieCapstone-TriviaApp',
+      startDate: 'September',
+      endDate: '2022'
     },
     {
       id: 2,
-      name: 'Backend API Development',
+      name: 'Figure-Drawing Assistant',
       img: "https://via.placeholder.com/400x250",
-      description: 'Developed a RESTful API to power an e-commerce website using Node.js and Express.js. Implemented user authentication and authorization using JWT and Passport.js. Utilized MongoDB for database management and Mongoose as an Object Data Modeling (ODM) library. ',
-      tech: ['Angular', 'Node.js', 'MongoDB', 'Intellij'],
-      link: 'https://example.com/project1',
-      startDate: '2022-01-01',
-      endDate: '2022-02-01'
+      description: 'Designed to assist artists in their figure drawing practice, this application allows the user to create a personal gallery, and select the duration of time between each image. This allows the user to practice drawing figures in a variety of poses and at a variety of speeds.  ',
+      tech: ['Java 16', 'Swing GUI', "   ", "   "],
+      link: 'https://github.com/8bllgrl/FigureDrawingGUI',
+      startDate: 'January',
+      endDate: '2023'
     },
     {
       id: 3,
-      name: 'Backend API Development',
+      name: 'Final Fantasy 14 Dialogue Search',
       img: "https://via.placeholder.com/400x250",
-      description: 'Developed a RESTful API to power an e-commerce website using Node.js and Express.js. Implemented user authentication and authorization using JWT and Passport.js. Utilized MongoDB for database management and Mongoose as an Object Data Modeling (ODM) library. ',
-      tech: ['Angular', 'Node.js', 'MongoDB', 'Intellij'],
-      link: 'https://example.com/project1',
-      startDate: '2022-01-01',
-      endDate: '2022-02-01'
+      description: "A valuable tool for the MMORPG Final Fantasy XIV. This program assists players who want to easily search through the game's files to find dialogue from specific characters or about certain topics. The results of this program are in chronological order. ",
+      tech: ['Java 16', 'Xiv API','Recursive Sorting'],
+      link: 'https://github.com/8bllgrl/XIVAPI-Dialogue-Scraper',
+      startDate: 'February',
+      endDate: '2023'
     },
     {
       id: 4,
-      name: 'Backend API Development',
+      name: 'Portfolio Site',
       img: "https://via.placeholder.com/400x250",
-      description: 'Developed a RESTful API to power an e-commerce website using Node.js and Express.js. Implemented user authentication and authorization using JWT and Passport.js. Utilized MongoDB for database management and Mongoose as an Object Data Modeling (ODM) library. ',
-      tech: ['Angular', 'Node.js', 'MongoDB', 'Intellij'],
-      link: 'https://example.com/project1',
-      startDate: '2022-01-01',
-      endDate: '2022-02-01'
-    },
-    {
-      id: 5,
-      name: 'Backend API Development',
-      img: "https://via.placeholder.com/400x250",
-      description: 'Developed a RESTful API to power an e-commerce website using Node.js and Express.js. Implemented user authentication and authorization using JWT and Passport.js. Utilized MongoDB for database management and Mongoose as an Object Data Modeling (ODM) library. ',
-      tech: ['Angular', 'Node.js', 'MongoDB', 'Intellij'],
-      link: 'https://example.com/project1',
-      startDate: '2022-01-01',
-      endDate: '2022-02-01'
+      description: 'The one you are viewing right now! This is a portfolio website that uses the Angular framework and is hosted on GitHub Pages. The website is responsive and works well on all devices. It is also fast and easy to use. I am proud of this website and I believe it is a good representation of my skills. ',
+      tech: ['Angular', 'Typescript', 'HTML', 'CSS'],
+      link: 'https://github.com/8bllgrl/profile',
+      startDate: 'April',
+      endDate: '2023'
     }
   ];
 

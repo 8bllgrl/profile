@@ -1,10 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-global',
-  templateUrl: './global.component.html',
-  styleUrls: ['./global.component.css']
+  template: ''
 })
 export class GlobalComponent {
+
+  @HostListener('document:click', ['$event'])
+  onLinkClick(event: MouseEvent) {
+    if (event.target instanceof HTMLAnchorElement) {
+      event.preventDefault();
+      window.open(event.target.href, '_blank');
+    }
+  }
 
 }
