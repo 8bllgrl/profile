@@ -84,5 +84,5 @@ input[type="reset"] {
 }
 
 ::selection {
-  background-color: #6058f6d8;
+  background-color: rgba(243, 233, 90, 0.438);
 }

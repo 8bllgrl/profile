@@ -1,4 +1,4 @@
-<app-loading-screen></app-loading-screen>
+<!-- <app-loading-screen></app-loading-screen> -->
 
 
 <div class="page">
@@ -16,12 +16,14 @@
 
     <!-- <div class="divider">Div1</div>
     <div class="divider">Div1</div> -->
+    <h2 class="subheadng hidden" animateOnScroll>About</h2>
     <app-me-section class="me-section"></app-me-section>
     <!-- <div class="divider">Div1</div>
     <div class="divider">Div1</div> -->
 
 
     <div class="divider">Div1</div>
+    <h2 class="subheadng hidden" animateOnScroll>Skills</h2>
     <div class="skills hidden" animateOnScroll>
       <app-skills-card [skillcard]="skillcard1Contents"></app-skills-card>
       <app-skills-card [skillcard]="skillcard2Contents"></app-skills-card>
@@ -39,6 +41,7 @@
       <div class="divider">Div1</div>
     </div>
 
+    <h2 class="subheadng">Projects</h2>
     <div class="projs">
       <div class="projdivider">PDiv</div>
       <app-proj-card [project]="project1"></app-proj-card>
@@ -54,31 +57,30 @@
 
   </div>
   <div class="footer">
-    <h2 class="footer-header">Footer Title</h2>
+    <h2 class="footer-header">Contact Me!</h2>
     <div class="grid-container">
       <div class="grid-item">
         <h2>Chat</h2>
-        <a href="#">
-          <p class="grey">Footer Item</p>
+        <a class="grey" href="mailto:its.sagebelknap@gmail.com">
+          its.sagebelknap@gmail.com
         </a>
-        <a href="#">
-          <p class="grey">Footer Item</p>
+        <a class="grey" href="tel:+18016948952">
+          +1 (801) 694 8952
         </a>
-        <a href="#">
-          <p class="grey">Footer Item</p>
-        </a>
+
       </div>
+
       <div class="grid-item">
         <h2>Links</h2>
-        <a href="#">
-          <p class="grey">Footer Item</p>
+        <a class="grey" href="https://www.linkedin.com/in/sagebelknap/">
+          LinkedIn
         </a>
-        <a href="#">
-          <p class="grey">Footer Item</p>
+        <a class="grey" href="https://github.com/8bllgrl">
+          GitHub
         </a>
-        <a href="#">
-          <p class="grey">Footer Item</p>
-        </a>
+        <!-- <a class="grey" href="#">
+          Footer Item
+        </a> -->
       </div>
     </div>
   </div>

@@ -26,10 +26,10 @@ export class AccomplishmentListDataService {
   private education: Education[] = [
     {
       id: 1,
-      name: "Kenzie Academy Graduate",
+      name: "Kenzie Academy",
       description: "I completed the full-stack web development program at Kenzie Academy, where I learned a variety of skills including HTML, CSS, JavaScript, React, Node.js, and SQL. Throughout the program, I worked on a number of real-world projects to gain practical experience.",
-      startDate: "January 2021",
-      endDate: "September 2021",
+      startDate: "April 2022",
+      endDate: "September 2022",
     }
   ];
   

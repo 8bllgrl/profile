@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { AccomplishmentListDataService } from '../../models/project-list-data-service';
-import { WorkExperience } from '../../models/workexperience.model';
+import { AccomplishmentListDataService } from '../../../assets/models/project-list-data-service';
+import { WorkExperience } from '../../../assets/models/workexperience.model';
 
 @Component({
   selector: 'app-work-experience',

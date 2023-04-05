@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { AccomplishmentListDataService } from '../../models/project-list-data-service';
-import { Project } from '../../models/project.model';
+import { AccomplishmentListDataService } from '../../../assets/models/project-list-data-service';
+import { Project } from '../../../assets/models/project.model';
 
 @Component({
   selector: 'app-projects',

@@ -18,12 +18,11 @@ export class MainInfoComponent {
   lastName: string = "Belknap"
   jobTitle: string = "Junior Full-stack Developer"
 
-  descriptionContents: string = 
-  `This is a long string with multiple lines
-  that can be easily reaaaaaaaaaaaaad
-  thanks to the use of 
-  template literals and line breaks.
-`;
+//   descriptionContents: string = 
+//   `I am a back end developer with 1 year of experience in building projects that solve creative problems and building web applications.
+//   I am proficient in a variety of programming languages, including Java, Python, and Typescript. I am also familiar with frameworks such as 
+//   Angular, React, and Spring Boot, and UI design.
+// `;
 
 
 }

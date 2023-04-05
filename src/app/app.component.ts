@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { SkillsContents } from './models/skillscontents.model';
-import { AccomplishmentListDataService } from './models/project-list-data-service';
+import { SkillsContents } from '../assets/models/skillscontents.model';
+import { AccomplishmentListDataService } from '../assets/models/project-list-data-service';
 
 @Component({
   selector: 'app-root',
@@ -13,17 +13,19 @@ export class AppComponent implements OnInit {
   // Skill details
   skillcard1Contents = new SkillsContents(
     'Front-end',
-    ['HTML', 'CSS','Typescript','Angular']
+    ['HTML', 'CSS', 'Typescript', 'Angular']
   );
+
   skillcard2Contents = new SkillsContents(
-    'Tools & Other',
-    ['Git', 'GitHub', 'IntelliJ', 'Gradle', 'Game Modding']
-  );
-  skillcard3Contents = new SkillsContents(
     'Back-end',
     ['Java', 'Python', 'SQL', 'Spring Boot', 'RESTful API']
   );
   
+  skillcard3Contents = new SkillsContents(
+    'Tools & Other',
+    ['Git', 'GitHub', 'JetBrains / VSCode', 'Gradle']
+  );
+
 
   accomplishments = new AccomplishmentListDataService;
 
