@@ -38,9 +38,10 @@ export class AccomplishmentListDataService {
   private projects: Project[] = [
     {
       id: 1,
-      name: 'Backend API Development',
+      name: 'Trivia Game',
       img: "https://via.placeholder.com/400x250",
-      description: 'Developed a RESTful API to power an e-commerce website using Node.js and Express.js. Implemented user authentication and authorization using JWT and Passport.js. Utilized MongoDB for database management and Mongoose as an Object Data Modeling (ODM) library. ',
+      description: 
+      "<a href=\"https://www.tumblr.com/\">Tumblr</a>,This application is a trivia game that uses a REST API to gather data for the questions and answers, determines if the user answered correctly and provides feedback based on the user's response. Enjoy!",
       tech: ['Angular', 'Node.js', 'MongoDB', 'Intellij'],
       link: 'https://example.com/project1',
       startDate: 'Month',

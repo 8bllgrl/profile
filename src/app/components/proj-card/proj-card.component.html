@@ -4,7 +4,7 @@
   <div class="hidden" animateOnScrollOther>
     <h2><a href="{{ project.link }}">{{ project.name }} ➔ </a></h2>
     <div class="description-box">
-      <p class="description-txt">{{ project.description }}</p>
+      <p [innerHTML]=project.description class="description-txt"> {{ project.description }}</p>
 
     </div>
   </div>

@@ -20,7 +20,7 @@ export class AppComponent implements OnInit {
     'Back-end',
     ['Java', 'Python', 'SQL', 'Spring Boot', 'RESTful API']
   );
-  
+
   skillcard3Contents = new SkillsContents(
     'Tools & Other',
     ['Git', 'GitHub', 'JetBrains / VSCode', 'Gradle']
@@ -34,6 +34,8 @@ export class AppComponent implements OnInit {
   project2 = this.accomplishments.getProjects()[1];
   project3 = this.accomplishments.getProjects()[2];
   project4 = this.accomplishments.getProjects()[3];
+
+  
 
   ngOnInit() {
     // this.addScrollListener();

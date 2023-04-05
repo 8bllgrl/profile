@@ -18,4 +18,8 @@ export class Project extends Accomplishment {
         this.img = img;
         this.tech = tech;
     }
+
+    // public setDescription(value: string): void {
+    //     this.description = value;
+    // }
 }
