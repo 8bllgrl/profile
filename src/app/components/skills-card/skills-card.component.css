@@ -11,8 +11,10 @@
   height: 250px;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
-  margin-left: ;
+  margin-left: 0;
   font-size: 21px;
+  line-height: auto;
+  /* line-height: 50px; */
 }
 
 .card-title {
@@ -56,5 +58,6 @@
     margin: 5px;
     width: 290px;
     height: 300px;
+    /* line-height: 30px; */
   }
 }
