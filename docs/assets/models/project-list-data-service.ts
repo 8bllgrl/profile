@@ -9,10 +9,10 @@ import { WorkExperience } from './workexperience.model';
 export class AccomplishmentListDataService {
 
   // Work Experience
-  
+
   private workExperience: WorkExperience[] = [
     {
-      id:1,
+      id: 1,
       company: "Company Name",
       name: "position name",
       description: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
@@ -27,12 +27,12 @@ export class AccomplishmentListDataService {
     {
       id: 1,
       name: "Kenzie Academy",
-      description: "I completed the full-stack web development program at Kenzie Academy, where I learned a variety of skills including HTML, CSS, JavaScript, React, Node.js, and SQL. Throughout the program, I worked on a number of real-world projects to gain practical experience.",
+      description: "At Kenzie Academy, I primarily learned how to code in Java, where I was taught by industry professionals. I learned Object Oriented Programming, algorithms, organizing data structures, and RESTful API implementation with techniques that included heavy usage of JUnit testing to ensure that our answers the weekly tests were accurate. Here, I also participated in study groups, where we would give and receive code reviews before we would upload them to Github. This course lasted 6 months.",
       startDate: "April 2022",
       endDate: "September 2022",
     }
   ];
-  
+
 
   // Personal Projects
   private projects: Project[] = [
@@ -41,7 +41,7 @@ export class AccomplishmentListDataService {
       name: 'Trivia Game',
       img: "https://i.imgur.com/YtKOebG.png",
       description: "This application is a trivia game that uses a <a href='https://jservice.kenzie.academy/'target=\"_blank\"  style='color:blue'><u>REST API</u></a> to gather data for the questions and answers, determines if the user answered correctly and provides feedback based on the user's response. Enjoy!",
-      tech: ["Swing GUI",'Jservice API', 'Java 16', "   "],
+      tech: ["Swing GUI", 'Jservice API', 'Java 16', "   "],
       link: 'https://github.com/8bllgrl/KenzieCapstone-TriviaApp',
       startDate: 'September',
       endDate: '2022'
@@ -61,7 +61,7 @@ export class AccomplishmentListDataService {
       name: 'Final Fantasy 14 Dialogue Search',
       img: "https://i.imgur.com/YhA7fvK.png",
       description: "A valuable tool for the MMORPG Final Fantasy XIV. This program assists players who want to easily search through the game's files to find dialogue from specific characters or about certain topics. The results of this program are in chronological order. ",
-      tech: ['Java 16', 'Xiv API','Recursive Sorting'],
+      tech: ['Java 16', 'Xiv API', 'Recursive Sorting'],
       link: 'https://github.com/8bllgrl/XIVAPI-Dialogue-Scraper',
       startDate: 'February',
       endDate: '2023'
@@ -78,7 +78,7 @@ export class AccomplishmentListDataService {
     }
   ];
 
-  constructor() { 
+  constructor() {
   }
 
   getProjects(): Project[] {
