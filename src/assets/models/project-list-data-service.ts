@@ -15,7 +15,7 @@ export class AccomplishmentListDataService {
       id: 1,
       company: "Company Name",
       name: "position name",
-      description: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
+      description: " ",
       startDate: "2021",
       endDate: "2022",
     }
@@ -27,7 +27,7 @@ export class AccomplishmentListDataService {
     {
       id: 1,
       name: "Kenzie Academy",
-      description: "At Kenzie Academy, I primarily learned how to code in Java, where I was taught by industry professionals. I learned Object Oriented Programming, algorithms, organizing data structures, and RESTful API implementation with techniques that included heavy usage of JUnit testing to ensure that our answers the weekly tests were accurate. Here, I also participated in study groups, where we would give and receive code reviews before we would upload them to Github. This course lasted 6 months.",
+      description: "At Kenzie academy, I was taught by industry professionals from the ground up on how to learn Java. <br> <br> Over the span of 6 months, I uploaded 80+ projects to Github, also learning secondary skills such as navigating the bash terminal, project planning, and how to do code reviews. <br> <br> On top of that, I also learned extensively about JUnit testing, which was used on a weekly basis. Implementing REST APIs was also a feat, to which I eventually used in my final project. I've continued to work on the final project past my graduation date, you can view that here: <a href='https://jservice.kenzie.academy/' target=\"_blank\" style='color:blue; text-decoration:underline;'>Link</a>",
       startDate: "April 2022",
       endDate: "September 2022",
     }
@@ -36,6 +36,17 @@ export class AccomplishmentListDataService {
 
   // Personal Projects
   private projects: Project[] = [
+
+    {
+      id: 3,
+      name: 'Final Fantasy 14 Dialogue Search',
+      img: "https://i.imgur.com/YhA7fvK.png",
+      description: "A valuable tool for the MMORPG Final Fantasy XIV. This program assists players who want to easily search through the game's files to find dialogue from specific characters or about certain topics. The results of this program are in chronological order. ",
+      tech: ['Python', 'Xiv REST API', 'CSV file manipulation'],
+      link: 'https://github.com/8bllgrl/XIVAPI-Dialogue-Scraper',
+      startDate: 'February',
+      endDate: '2023'
+    },
     {
       id: 1,
       name: 'Trivia Game',
@@ -56,16 +67,7 @@ export class AccomplishmentListDataService {
       startDate: 'January',
       endDate: '2023'
     },
-    {
-      id: 3,
-      name: 'Final Fantasy 14 Dialogue Search',
-      img: "https://i.imgur.com/YhA7fvK.png",
-      description: "A valuable tool for the MMORPG Final Fantasy XIV. This program assists players who want to easily search through the game's files to find dialogue from specific characters or about certain topics. The results of this program are in chronological order. ",
-      tech: ['Java 16', 'Xiv API', 'Recursive Sorting'],
-      link: 'https://github.com/8bllgrl/XIVAPI-Dialogue-Scraper',
-      startDate: 'February',
-      endDate: '2023'
-    },
+    
     {
       id: 4,
       name: 'Portfolio Site',

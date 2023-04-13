@@ -1,16 +1,15 @@
 <!-- <hr> -->
 
 <div class="container hidden" *ngFor="let education of educationList" scrollAnimation>
-  <h2 class="top-row"> 
+  <h2 class="top-row">
     <img class="logo" src="https://i.imgur.com/wVezsJj.png" alt="Kenize Image TODO">
   </h2>
   <div class="hidden" scrollAnimationBlur>
 
-
   </div>
   <div class="bottom-row">
     <img src="https://i.imgur.com/gwrUuCS.png" alt="Kenize Image TODO">
-    <p>{{ education.description }}</p>
+    <p [innerHTML]=education.description class="education-desc">{{ education.description }}</p>
 
   </div>
   <div class="dates">
