@@ -1,6 +1,6 @@
 <h1 align="center">Sage Belknap's GitHub Portfolio </h1> 
 <p align="center">
-This is my professional portfolio website that I created from scratch using Angular. The website is hosted on GitHub Pages. This project uses HTML, CSS, and Typescript. I have designed the project beforehand using [Figma](https://www.figma.com).
+This is my professional portfolio website that I created from scratch using Angular. The website is hosted on GitHub Pages. This project uses HTML, CSS, and Typescript. I have designed the project beforehand using Figma.
 </p>
 <p align="center">
 https://8bllgrl.github.io/profile
