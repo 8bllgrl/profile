@@ -1,30 +1,46 @@
-# Github Profile
-https://8bllgrl.github.io/profile
+# Sage Belknap's GitHub Portfolio -- 8bllgrl.github.io/profile
 
-https://api.github.com/repos/8bllgrl/profile
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+This is my professional portfolio website that I created from scratch using Angular. The website is hosted on GitHub Pages.
 
-## Development server
+## Live Demo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+You can view a live demo of this website [here](https://8bllgrl.github.io/profile)!
 
-## Code scaffolding
+## 🛠 Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To install this website on your local machine, follow these steps:
 
-## Build
+1. Clone the repository to your local machine using the command `git clone git@github.com:8bllgrl/profile.git`.
+2. Navigate to the project directory you have cloned it inside.
+3. Install the dependencies using the command `npm install`.
+4. Run the development server using the command `ng serve` or `ng serve -o`.
+5. To view this website through installation on your local machine, simply navigate to `http://localhost:4200` in your web browser.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## ⚠️‼️ Forking this repo (please read!) ‼️⚠️
 
-## Running unit tests
+If you are interested in using my repository as a starting point for your own project, you are welcome to fork it. However, I want to make it clear that you should not claim my work as your own.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Even if you make minor changes to the project, you must still give credit to me. Please make sure to link back to my GitHub profile and acknowledge me as the original creator.
 
-## Running end-to-end tests
+It is important to note that my portfolio is an original design that I created from start to finish. I did not follow any tutorials, and this is my own original website design. Therefore, if you decide to clone my portfolio, you cannot claim it as your own, or that you yourself designed it.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+A significant amount of effort and creativity was put into this project by myself alone to build an original design from start to finish. Please respect the time and effort that I put into creating this portfolio and give credit where credit is due, because this was not an easy project for me to create from scratch.
 
-## Further help
+### TL;DR
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Yes, you can fork this repo. However, it is REQUIRED that you must give me proper credit by linking back to [https://github.com/8bllgrl](https://github.com/8bllgrl).
+
+## Features
+
+This website includes the following features:
+
+- Home page with information about me and my skills
+- Portfolio page with my projects and their descriptions
+- Contact page with a contact form and my contact information
+- Responsive design that works on different devices and screen sizes
+
+## Credits
+
+- [Angular](https://angular.io/)
+- [GitHub Pages](https://pages.github.com/)
