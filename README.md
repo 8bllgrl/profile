@@ -1,11 +1,22 @@
-# Sage Belknap's GitHub Portfolio -- 8bllgrl.github.io/profile
+<h1 align="center">Sage Belknap's GitHub Portfolio </h1> 
+<p align="center">
+This is my professional portfolio website that I created from scratch using Angular. The website is hosted on GitHub Pages. This project uses HTML, CSS, and Typescript. I have designed the project beforehand using [Figma](https://www.figma.com).
+</p>
+<p align="center">
+https://8bllgrl.github.io/profile
+</p>
+
+<p align="center"> 
+  <img src="screenshot.png" alt="alt text" width="600">
+</p>
+</p>
 
 
-This is my professional portfolio website that I created from scratch using Angular. The website is hosted on GitHub Pages.
 
 ## Live Demo
 
-You can view a live demo of this website [here](https://8bllgrl.github.io/profile)!
+You can view a live demo of this website here: https://8bllgrl.github.io/profile
+
 
 ## 🛠 Installation
 
@@ -44,3 +55,7 @@ This website includes the following features:
 
 - [Angular](https://angular.io/)
 - [GitHub Pages](https://pages.github.com/)
+
+### Inspiration:
+
+- [Brittany Chiang](https://brittanychiang.com/)
