@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { SkillsContents } from '../assets/models/skillscontents.model';
 import { AccomplishmentListDataService } from '../assets/models/project-list-data-service';
+import { Project } from 'docs/assets/models/project.model';
 
 @Component({
   selector: 'app-root',
@@ -30,15 +31,18 @@ export class AppComponent implements OnInit {
   accomplishments = new AccomplishmentListDataService;
 
   // Project Details
+  projects: Project[] = [];
   project1 = this.accomplishments.getProjects()[0];
   project2 = this.accomplishments.getProjects()[1];
   project3 = this.accomplishments.getProjects()[2];
   project4 = this.accomplishments.getProjects()[3];
 
-  
+   
+
 
   ngOnInit() {
     // this.addScrollListener();
+    this.projects = this.accomplishments.getProjects();
   }
 
   addScrollListener() {
@@ -53,4 +57,6 @@ export class AppComponent implements OnInit {
       });
     }
   }
+
+  
 }

@@ -77,6 +77,26 @@ export class AccomplishmentListDataService {
       link: 'https://github.com/8bllgrl/profile',
       startDate: 'April',
       endDate: '2023'
+    },
+    {
+      id: 5,
+      name: 'Portfolio Site2',
+      img: "https://i.imgur.com/sa2VkXn.png",
+      description: 'The one you are viewing right now! This is a portfolio website that uses the Angular framework and is hosted on GitHub Pages. The website is responsive and works well on all devices. It is also fast and easy to use. I am proud of this website and I believe it is a good representation of my skills. ',
+      tech: ['Angular', 'Typescript', 'HTML', 'CSS'],
+      link: 'https://github.com/8bllgrl/profile',
+      startDate: 'April',
+      endDate: '2023'
+    },
+    {
+      id: 6,
+      name: 'Portfolio Site3',
+      img: "https://i.imgur.com/sa2VkXn.png",
+      description: 'The one you are viewing right now! This is a portfolio website that uses the Angular framework and is hosted on GitHub Pages. The website is responsive and works well on all devices. It is also fast and easy to use. I am proud of this website and I believe it is a good representation of my skills. ',
+      tech: ['Angular', 'Typescript', 'HTML', 'CSS'],
+      link: 'https://github.com/8bllgrl/profile',
+      startDate: 'April',
+      endDate: '2023'
     }
   ];
 

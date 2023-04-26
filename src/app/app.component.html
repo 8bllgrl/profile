@@ -44,18 +44,18 @@
       <div class="divider">Div1</div>
     </div>
 
-    <h2 class="subheadng">Projects</h2>
-    <div class="projs">
-      <div class="projdivider">PDiv</div>
-      <app-proj-card [project]="project1"></app-proj-card>
-      <div class="projdivider">PDiv</div>
-      <app-proj-card [project]="project2"></app-proj-card>
-      <div class="projdivider">PDiv</div>
-      <app-proj-card [project]="project3"></app-proj-card>
-      <div class="projdivider">PDiv</div>
-      <app-proj-card [project]="project4"></app-proj-card>
-      <div class="projdivider">PDiv</div>
-    </div>
+   
+
+    <h2 class="subheading">Projects</h2>
+<div class="projs">
+  <div class="projdivider">PDiv</div>
+  <!-- Use *ngFor to loop through the projects array and generate an app-proj-card for each project -->
+  <ng-container *ngFor="let project of projects">
+    <app-proj-card [project]="project"></app-proj-card>
+    <div class="projdivider">PDiv</div>
+  </ng-container>
+</div>
+
 
 
 
